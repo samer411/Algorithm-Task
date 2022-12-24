@@ -11,17 +11,19 @@
     <h1 style="color: #27c7e7">Insertion Sort</h1>
 
     <h3 id="po">Input Array Elements</h3>
-    <form class="" action="index.html" method="post">
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <input type="number" name="array[]" value="" /><br />
-      <button type="button" name="button" onclick="getArr()">Submit</button>
-    </form>
+    <div id="app">
+      <h1>Minimum Spanning Tree</h1>
+      <form onsubmit="return calculateMST()">
+        <label>Vertices:</label>
+        <input type="text" id="vertices" />
+        <br />
+        <label>Edges:</label>
+        <input type="text" id="edges" />
+        <br />
+        <input type="submit" value="Calculate MST" />
+      </form>
+      <div id="result"></div>
+    </div>
 
     <p id="before"></p>
     <p id="result"></p>
